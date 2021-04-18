@@ -2,9 +2,8 @@
 XV6-Modified is an OS cloned from xv6 kernel with some new features . xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix Version 6 (v6).
 
 # New Features
-## Part 2 (adding new system calls):
-1.add creation time to the process structure and system call to return it.\
-2.get all the ancestors of a process.\
-3.get all the descendant of a process.\
-4. calculate the biggest perfect square of the given number.(the number should be passed by registers).\
-5. sleep time. (process holds on to the cpu but sleeps for a certain time)\
+## Part 1 (Introduction to XV6):
+1.Writing names\
+2.Added Ctrl+L, Ctrl+K, Ctrl+I,and Normal cursor movement.\
+3.Some user programs like strdiff added.\
+  (strdiff is used for comparing two strings and according to the smallest ascii code prints 0 or 1 in a file.)
